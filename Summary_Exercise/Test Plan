@@ -1,44 +1,29 @@
-#1 Verify that the Subscriptions section on the YouTube homepage
-displays subscribed channels
+#1 Verify that the Subscription button under a video is working
 
 Setup:
 
 1- Open the Chrome Web browser.
 2- Ensure that internet connectivity is available.
-Log into the YouTube account with subscriptions to at least one channel.
+Log into the YouTube account 
 Arrange:
 
-Navigate to the YouTube website by entering "youtube.com" in the address bar and pressing Enter.
-Wait for the YouTube homepage to load completely.
-Act:
+Navigate to the YouTube Login website pressing Enter. Enter registered account information
+and click next Wait for the YouTube homepage to load completely. locate the search tap and enter "python programming"
+wait for the list of suggestion to load and choose the video "python programming -Full course",
+wait for the page to be redirected to the video page, 
 
-Locate the Subscriptions section on the homepage, typically located in the navigation menu or sidebar.
-Click on the Subscriptions section to view the latest uploads from subscribed channels.
-Verify that the Subscriptions section displays a list of videos from channels that the user has subscribed to, sorted by upload date.
-Click on a video from the Subscriptions section to view its details and playback.
-Interact with the subscription video by liking, commenting, or sharing it.
+Act:
+locate the subscribe button under the video and click on it.
+
 Assert:
 
-Assert that the Subscriptions section displays recent uploads from channels that the user has subscribed to.
-Assert that subscription videos are accompanied by relevant metadata and sorted appropriately based on upload date.
-Assert that clicking on subscription videos allows users to view their details and playback without encountering errors.
-Ensure that users can interact with subscription videos by performing actions such as liking, commenting, or sharing.
+check the text on the button, should be changed to subscribed
+
 Teardown:
-
+click on unsubscribe, to unsbscribe and click on it (deleteing the subscription)
 Close the Chrome Web browser.
-Clean up any temporary files or resources created during the test execution.
+
 Expected Result:
-
-The Subscriptions section on the YouTube homepage should display recent uploads from channels that the user has subscribed to.
-Subscription videos should be accompanied by relevant metadata and sorted appropriately based on upload date.
-Users should be able to click on subscription videos to view their details and playback without encountering errors.
-Users should be able to interact with subscription videos by performing actions such as liking, commenting, or sharing.
-Postconditions:
-
-The Subscriptions section remains accessible for further exploration or interaction.
-Users can continue navigating through other sections of the YouTube homepage or platform as needed.
-
-
-
+the subscrition button should change the text to subscribed once its clicked on
 
 
