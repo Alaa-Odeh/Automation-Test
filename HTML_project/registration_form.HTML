@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Registration Form</title>
+	<script src="main.js"></script>
+
+</head>
+<body>
+	
+	<form class="form"  method="post" action="" onsubmit="validateForm()">	<p class="title">Registration Form</p>
+		<p class="message">Fill in all the feilds</p>
+		<div class="form-group">
+			<label>
+				<input type="text" id="fullname" name="fullname" required>
+			 	<span for="fullname">Full Name</span>
+			</label>
+			<label>
+				<input type="email" id="email" name="email" required>  
+				<span for="email">Email</span>
+			
+			</label>
+			  
+			<label>
+				<input type="password" id="password" name="password" minlength="8" required>
+			 	<span for="password">Password</span>
+			 	<span class="icon" id="togglePassword">
+			 		<i class="far fa-eye"></i>
+			 	</span>
+			</label>
+			  
+			<label>
+				<input type="password" id="confirm_password" name="confirm_password" minlength="8" required>
+				<span for="confirm_password">Confirm Password</span>
+				<span class="icon" id="togglePasswordConfirm">
+			 		<i class="far fa-eye-slash"></i>
+			</label>
+			  
+			<label> 
+				
+				<input type="date" id="birthdate" name="birthdate"  required>
+			</label>  
+			
+			<p class="gender">
+				<span for="gender">Gender</span>
+				<select id="gender" name="gender" required>
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="other">Other</option>
+				</select></p>
+
+
+			
+			
+			<p class="terms">
+				<input type="checkbox" class="agreeterms" id="agree_terms" name="agree_terms" required>
+				<a href="#"> Terms and Conditions</a>
+			</p>
+		  	
+			
+			<button class="submit" value="Submit">
+				<span for="submit">Submit</span>
+			</button>
+
+			 
+	</form>
+
+	
+
+
+</body>
+</html>
