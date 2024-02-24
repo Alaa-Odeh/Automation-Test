@@ -1,0 +1,11 @@
+{
+  "name": "project365score",
+  "version": "1.0.0",
+  "description": "Testing website",
+  "url": "https://www.365scores.com/",
+  "hub_url": "http://localhost:4444/wd/hub",
+  "grid": true,
+  "browser": "Chrome",
+  "grid type": "serial",
+  "grid size": 3
+}
