@@ -46,8 +46,8 @@
                         expertise to innovative teams and contribute to cutting-edge projects
                         in automation engineering. Looking for my first opportunity in Automation Testing</p>
                     <div class="btn">
-                        <button>Download CV</button>
-                    </div>
+ 			 <button onclick="downloadCV()">Download CV</button>
+		    </div>
                 </div>
                 <div class="right">
                     <div class="profile"> 
@@ -68,7 +68,12 @@
 
     <!-- Load library from the CDN -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
+    <script>
+	function downloadCV() {
+		
+	  window.location.href =" https://github.com/Alaa-Odeh/Automation-Test/blob/d60934d763309060f584a2c02a2ff7443edde31b/portfolio/Resume%20Alaa%20Odeh.pdf";
+	}
+    </script>
     <!-- Setup and start animation! -->
     <script>
         var typed = new Typed('.multiple', {
