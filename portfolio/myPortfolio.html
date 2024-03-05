@@ -70,8 +70,12 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
 	function downloadCV() {
-		
-	  window.location.href =" https://github.com/Alaa-Odeh/Automation-Test/blob/d60934d763309060f584a2c02a2ff7443edde31b/portfolio/Resume%20Alaa%20Odeh.pdf";
+	 var link = document.createElement("a");
+	  link.href = "https://raw.githubusercontent.com/Alaa-Odeh/Automation-Test/blob/d60934d76339a960ef584a2c02a2f7f443ded31b/portfolio/Resume%20Alaa%20Odeh.pdf";
+	  link.download = "Resume_Alaa_Odeh.pdf";
+	  document.body.appendChild(link);
+	  link.click();
+	  document.body.removeChild(link);
 	}
     </script>
     <!-- Setup and start animation! -->
