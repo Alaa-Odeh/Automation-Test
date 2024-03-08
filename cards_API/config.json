@@ -1,0 +1,17 @@
+
+{
+  "new_deck": "https://deckofcardsapi.com/api/deck/",
+  "jokers_enabled": true,
+  "deck_count": 1,"dont_shuffle_remaining": true,
+  "cards_to_draw": 1,
+  "add_to_pile": "https://deckofcardsapi.com/api/deck/deck_name/pile/pile_name/add/",
+  "pile_name": "Discard",
+  "listing_cards_in_piles": "https://deckofcardsapi.com/api/deck/deck_name/pile/pile_name/list/"
+
+
+
+
+
+}
+
+
